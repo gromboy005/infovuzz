@@ -98,7 +98,7 @@ function Get-Spicetify {
       UseBasicParsin = $true
       OutFile        = $archivePath
     }
-    Invoke-WebRequest @Parameters
+    
     Write-Success
   }
   end {
